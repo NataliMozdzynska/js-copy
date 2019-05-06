@@ -29,3 +29,49 @@ for(var i = 0; i < size; i++) {
     //Wypisuje w konsoli zmienną lineOfStars (jej zawartość - dlatego jest bez cudzysłosów)
     console.log(lineOfStars);
 }
+// zad 1 //
+
+var licz = 5 ;
+var cyf = 7 ;
+
+if (licz < cyf) {
+ greeting = "Licz jest mniejsza od cyf ";
+  } else {
+    greeting = "To cyf jest wieksza";
+  } 
+  console.log(greeting);
+  //zrobione zad 1//
+
+
+  //zad 2 //
+
+  var first = 1 ;
+  var second = 2 ;
+  var third = 3 ;
+
+  if (first < second && second < third) {
+ gre = "first jest mniejsza od second i third ";
+  } else if (third > second)
+  {
+    gre = "To third  jest wieksza";
+  } else ( "second jest wieksza")
+
+  console.log(gre);
+  // zad drugie end//
+
+  //zad 3 //
+  var i = undefined ;
+
+  for (let i=0; i<10; i++) {
+    console.log("lubie javascript");
+}
+//zad 3 end//
+
+//zad 4//
+
+var result = 0 ;
+
+for (let i=0; i<10; i++) {
+    console.log(i);
+}
+//zad 4 done//
